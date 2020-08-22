@@ -70,5 +70,5 @@ In the tab, there are multiple apps. So whatever permission will be assigned toa
 ### Backup Page
 There is a page from where we can take the backup of all the database which is connected to this portal.
 
-When we will click on the backup button, it will automatically take the backup and put it in the google drive.
+When we will click on the backup button, it will automatically take the backup and put it in the google drive
 ![Backup Page](/images/backup.png)
