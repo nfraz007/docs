@@ -6,5 +6,10 @@ module.exports = {
             { text: 'Portfolio', link: 'https://me.nfraz.co.in' },
         ],
         sidebar: 'auto'
-    }
+    },
+    plugins: [
+        '@vuepress/last-updated', 
+        '@vuepress/back-to-top', 
+        '@vuepress/medium-zoom'
+    ]
 }
