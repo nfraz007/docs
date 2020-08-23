@@ -1,19 +1,19 @@
 # Dinars Invoice
-Simple Application to manage and generate invoice
+Simple Application to manage and generate an invoice
 
 ## Project Requirements
 * Only single user login system.
 * Easy to install in the server.
-* User can have multiple company.
-* Easy way to switch to different company
+* User can have multiple companies.
+* Easy way to switch to a different company
 * Entire application should be based on the selected company
 * Dashboard
 * Reports
-* Very easy way to generate invoice.
+* Very easy way to generate invoices.
 * Invoice can be downloaded as well.
-* Give option to create estimation/quote.
-* give option to save invoice as a draft.
-* multiple payment record supported for each invoice.
+* Give the option to create an estimation/quote.
+* Give the option to save the invoice as a draft.
+* multiple payment records supported for each invoice.
 
 
 ## Technologies
@@ -61,17 +61,17 @@ php artisan install --dummy
 |Dummy Pvt. Ltd.|John|Doe|admin@gmail.com|123456|
 
 ## Features
-* All the project i have implemented.
+* All the projects I have implemented.
 * Very nice dashboard.
-* Lots of option to customise the invoice.
+* Lots of options to customize the invoice.
 * Page to create product/service.
-* Option to add setting for email.
-* Option to add you custom payment method.
+* Option to add set for email.
+* Option to add your custom payment method.
 * Option to add tax.
-* Tax can be applied to individual product as well as in the total amount.
+* Tax can be applied to the individual products as well as in the total amount.
 * Multiple taxes can be applied to the product and total amount.
 * Page to manage customer.
-* All the payment history can be visible in the invoice detail page.
+* All the payment history can be visible on the invoice detail page.
 * Generate payment summary report.
 
 ## Database Design
@@ -82,11 +82,11 @@ php artisan install --dummy
 ![Login](/images/dinars_invoice/login.png)
 
 ### Profile
-After login, from the left top **Default Company** dropdown, user can switch to different company
+After login, from the left top **Default Company** dropdown, user can switch to a different company
 ![Profile](/images/dinars_invoice/profile.png)
 
 ### Dashboard
-All the top level detail can be found in the dashboard. A very beautiful and clean dashboard with card, bar chart and latest invoice list.
+All the top-level detail can be found on the dashboard. A very beautiful and clean dashboard with the card, bar chart, and latest invoice list.
 ![Dashboard](/images/dinars_invoice/dashboard.png)
 
 ### Customer List
@@ -97,11 +97,11 @@ All the top level detail can be found in the dashboard. A very beautiful and cle
 ![Invoice List](/images/dinars_invoice/invoice_list.png)
 
 #### Invoice Detail
-All the detail for an invoice are placed very well. All the subitem and payment related detail are also present in this page.
+All the detail for an invoice is placed very well. All the subitem and payment related detail are also present on this page.
 ![Invoice Detail](/images/dinars_invoice/invoice_detail.png)
 
 #### Invoice Edit
-As you can see, adding or editing an invoice is very user friendly. here user can add multiple taxes in a item, or in the whole subtotal amount. taxes can be defind in the setting tab.
+As you can see, adding or editing an invoice is very user friendly. here user can add multiple taxes in an item, or in the whole subtotal amount. taxes can be defined in the setting tab.
 ![Invoice Edit](/images/dinars_invoice/invoice_edit.png)
 
 ### Report
