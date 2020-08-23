@@ -10,6 +10,8 @@ module.exports = {
     plugins: [
         '@vuepress/last-updated', 
         '@vuepress/back-to-top', 
-        '@vuepress/medium-zoom'
+        '@vuepress/medium-zoom',
+        'vuepress-plugin-smooth-scroll',
+        'vuepress-plugin-nprogress'
     ]
 }
